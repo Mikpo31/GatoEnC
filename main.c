@@ -7,7 +7,7 @@ int checkwin();
 void board();
 
 int main()
-{
+{ 
     int player = 1, i, choice;
 
     char mark;
@@ -15,8 +15,9 @@ int main()
     {
         board();
         player = (player % 2) ? 1 : 2;
-
+        printf("------------¡HOLA!-------------\n);
         printf("----- ¡Bienvenido al juego del gato! -----\n");
+        printf("=D\n");
         printf("Jugador %d, escribe un numero por favor:   ", player);
         scanf("%d", &choice);
 

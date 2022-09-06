@@ -64,10 +64,12 @@ int main()
     board();
 
     if (i == 1)
+        // Gana Jugador
         printf("==>\aEl jugador  %d  gana. :D", --player);
         printf("==>\a¡¡¡¡Felicidades!!!! ");
 
     else
+        //Empate
         printf("==>\aGato, esto es un empate. :( ");
 
     getch();
